@@ -6,9 +6,22 @@ return {
 
   -- { import = "astrocommunity.colorscheme.catppuccin" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
+
+  -- language packs
+  { import = "astrocommunity.pack.bash" },
+  { import = "astrocommunity.pack.cmake" },
+  { import = "astrocommunity.pack.go" },
+  { import = "astrocommunity.pack.java" },
+  { import = "astrocommunity.pack.json" },
+  { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.rust" },
+  { import = "astrocommunity.pack.svelte" },
+  { import = "astrocommunity.pack.tailwindcss" },
+  { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.pack.yaml" },
+
+  -- completion engine(s)
   { import = "astrocommunity.completion.copilot-lua" },
-  { import = "astrocommunity.media.vim-wakatime" },
   {
     -- further customize the options set by the community
     "copilot.lua",
@@ -25,6 +38,10 @@ return {
       },
     },
   },
+
+  -- code time metrics
+  { import = "astrocommunity.media.vim-wakatime" },
+
   { import = "astrocommunity.bars-and-lines.smartcolumn-nvim" },
   {
     "m4xshen/smartcolumn.nvim",
