@@ -50,4 +50,11 @@ return {
       disabled_filetypes = { "help" },
     },
   },
+  { import = "astrocommunity.colorscheme.nightfox" },
+  {
+    "EdenEast/nightfox.nvim",
+    opts = {
+      dim_inactive = true,
+    },
+  },
 }
