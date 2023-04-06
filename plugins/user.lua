@@ -2,7 +2,12 @@ return {
   -- You can also add new plugins here as well:
   -- Add plugins, the lazy syntax
   "andweeb/presence.nvim",
-  "nvim-treesitter/nvim-treesitter-context",
+  {
+    "nvim-treesitter/nvim-treesitter-context",
+    event = "User AstroFile",
+    opts = {},
+    cmd = { "TSContextEnable" },
+  },
   "Mofiqul/adwaita.nvim",
   {
     "ray-x/lsp_signature.nvim",
