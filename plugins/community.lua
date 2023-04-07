@@ -54,7 +54,14 @@ return {
   {
     "EdenEast/nightfox.nvim",
     opts = {
-      dim_inactive = true,
+      options = {
+        dim_inactive = true,
+        styles = {
+          comments = "italic",
+          keywords = "bold",
+          types = "italic,bold",
+        },
+      },
     },
   },
 }
