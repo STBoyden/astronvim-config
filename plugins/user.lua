@@ -36,8 +36,8 @@ return {
     event = "User AstroFile",
     cmd = { "ASToggle" },
   },
-  {
-    "mcauley-penney/tidy.nvim",
-    event = { "User AstroFile" },
-  },
+  -- {
+  --   "mcauley-penney/tidy.nvim",
+  --   event = { "User AstroFile" },
+  -- },
 }
