@@ -31,4 +31,13 @@ return {
       all_cmd_names = [[nu -c 'help commands | get name | str join "\n"']],
     },
   },
+  {
+    "Pocco81/auto-save.nvim",
+    event = "User AstroFile",
+    cmd = { "ASToggle" },
+  },
+  {
+    "mcauley-penney/tidy.nvim",
+    event = { "User AstroFile" },
+  },
 }
