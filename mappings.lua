@@ -22,8 +22,13 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+
+    -- cursor navigation mappings, keep cursor in the centre of the buffer
     ["j"] = { "jzz" },
     ["k"] = { "kzz" },
+    -- folding mappings
+    ["zr"] = { ":foldclose<cr>" },
+    ["zm"] = { ":foldopen<cr>" },
   },
   t = {
     -- setting a mapping to false will disable it
