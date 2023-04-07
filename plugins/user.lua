@@ -23,4 +23,12 @@ return {
       { "<leader>T", "<cmd>TodoTelescope<cr>", desc = "Open TODOs in telecope" },
     },
   },
+  {
+    "LhKipp/nvim-nu",
+    event = "BufRead",
+    opts = {
+      use_lsp_features = true,
+      all_cmd_names = [[nu -c 'help commands | get name | str join "\n"']],
+    },
+  },
 }
