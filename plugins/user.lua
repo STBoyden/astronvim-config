@@ -60,7 +60,7 @@ return {
       },
     },
   },
-  { "tpope/vim-rhubarb" },
+  "tpope/vim-rhubarb",
   {
     "tpope/vim-fugitive",
     deps = { "tpope/vim-rhubarb" },
