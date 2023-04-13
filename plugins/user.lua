@@ -69,7 +69,7 @@ return {
     keys = {
       {
         "<leader>gp",
-        "<cmd>Git! push<cr>",
+        "<cmd>Git push<cr>",
         desc = "Git push",
       },
       {
