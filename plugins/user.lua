@@ -87,6 +87,11 @@ return {
         "<cmd>Git commit<cr>",
         desc = "Git commit",
       },
+      {
+        "<leader>gm",
+        ':Git commit -m "',
+        desc = "Git commit with message",
+      },
     },
   },
 }
