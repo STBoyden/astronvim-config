@@ -31,13 +31,40 @@ return {
       all_cmd_names = [[nu -c 'help commands | get name | str join "\n"']],
     },
   },
-  -- {
-  --   "Pocco81/auto-save.nvim",
-  --   event = "User AstroFile",
-  --   cmd = { "ASToggle" },
-  -- },
-  -- {
-  --   "mcauley-penney/tidy.nvim",
-  --   event = { "User AstroFile" },
-  -- },
+  {
+    "ThePrimeagen/harpoon",
+    deps = { "nvim-lua/plenary.nvim" },
+    event = "User AstroFile",
+    keys = {
+      {
+        "<leader>Ha",
+        "<cmd>lua require('harpoon.mark').add_file()<cr>",
+        desc = "Add file to harpoon",
+      },
+      {
+        "<leader>Hm",
+        "<cmd>lua require('harpoon.ui').toggle_quick_menu()<cr>",
+        desc = "Open harpoon quick menu",
+      },
+    },
+  },
+  {
+    "mbbill/undotree",
+    event = "User AstroFile",
+    cmd = { "UndotreeToggle" },
+    keys = {
+      {
+        "<leader>lu",
+        "<cmd>UndotreeToggle<cr>",
+        desc = "Open undotree",
+      },
+    },
+  },
+  { "tpope/vim-rhubarb" },
+  {
+    "tpope/vim-fugitive",
+    deps = { "tpope/vim-rhubarb" },
+    event = "User AstroFile",
+    cmd = { "Git" },
+  },
 }
