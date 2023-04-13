@@ -66,5 +66,27 @@ return {
     deps = { "tpope/vim-rhubarb" },
     event = "User AstroFile",
     cmd = { "Git" },
+    keys = {
+      {
+        "<leader>gp",
+        "<cmd>Git push<cr>",
+        desc = "Git push",
+      },
+      {
+        "<leader>ga",
+        "<cmd>Git add %<cr>",
+        desc = "Git add current file",
+      },
+      {
+        "<leader>gA",
+        "<cmd>Git add .<cr>",
+        desc = "Git add all changes",
+      },
+      {
+        "<leader>gC",
+        "<cmd>Git commit<cr>",
+        desc = "Git commit",
+      },
+    },
   },
 }
