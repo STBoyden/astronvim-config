@@ -1,8 +1,3 @@
-local function current_date()
-  local date = os.date "%Y-%m-%d %H:%M:%S"
-  return date
-end
-
 return {
   -- Add the community repository of plugin specifications
   "AstroNvim/astrocommunity",
