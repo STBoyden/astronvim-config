@@ -7,8 +7,8 @@ return {
     spell = false,         -- sets vim.opt.spell
     signcolumn = "auto",   -- sets vim.opt.signcolumn to auto
     wrap = false,          -- sets vim.opt.wrap
-    shell = "/var/home/sboyden/.cargo/bin/nu",
-    guifont = { "Iosevka Term", ":h12" },
+    wrap = false, -- sets vim.opt.wrap
+    guifont = { "IntelOneMono Nerd Font", ":h12" },
   },
   g = {
     -- general astronvim configuration
