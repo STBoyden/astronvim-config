@@ -66,6 +66,26 @@ return {
       },
     },
   },
+  { import = "astrocommunity.colorscheme.catppuccin" },
+  {
+    "catppuccin",
+    opts = {
+      integrations = {
+        sandwich = false,
+        noice = true,
+        mini = true,
+        leap = true,
+        markdown = true,
+        neotest = true,
+        cmp = true,
+        overseer = true,
+        lsp_trouble = true,
+        ts_rainbow2 = true,
+      },
+      transparent_background = false,
+      flavour = "frappe",
+    },
+  },
 
   -- notetaking
   { import = "astrocommunity.note-taking.neorg" },
@@ -74,5 +94,5 @@ return {
   { import = "astrocommunity.terminal-integration.flatten-nvim" },
 
   -- bars and lines
-  { import = "astrocommunity.bars-and-lines.lualine-nvim" },
+  -- { import = "astrocommunity.bars-and-lines.lualine-nvim" },
 }
