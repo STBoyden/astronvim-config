@@ -20,7 +20,11 @@ return {
     opts = {},
     cmd = { "TodoQuickFix" },
     keys = {
-      { "<leader>T", "<cmd>TodoTelescope<cr>", desc = "Open TODOs in telecope" },
+      {
+        "<leader>T",
+        "<cmd>TodoTelescope<cr>",
+        desc = "Open TODOs in telecope",
+      },
     },
   },
   {
@@ -91,6 +95,26 @@ return {
         "<leader>gm",
         ':Git commit -m "',
         desc = "Git commit with message",
+      },
+    },
+  },
+  { "folke/twilight.nvim" },
+  {
+    "folke/zen-mode.nvim",
+    deps = { "folke/twilight.nvim" },
+    cmd = { "ZenMode" },
+    opts = {
+      plugins = {
+        wezterm = {
+          enabled = true,
+        },
+      },
+    },
+    keys = {
+      {
+        "<leader>Z",
+        "<cmd>ZenMode<cr>",
+        desc = "Toggle ZenMode",
       },
     },
   },
