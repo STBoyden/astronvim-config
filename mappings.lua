@@ -29,6 +29,13 @@ return {
     -- folding mappings
     ["zr"] = { ":foldclose<cr>" },
     ["zm"] = { ":foldopen<cr>" },
+
+    -- Section namings
+    ["<leader>N"] = { name = "Neorg" },
+    ["<leader>Nt"] = { name = "Table of contents placement" },
+    ["<leader>Nj"] = { name = "Journaling" },
+    ["<leader>Ne"] = { name = "Exporting" },
+    ["<leader>Nw"] = { name = "Workspaces" },
   },
   t = {
     -- setting a mapping to false will disable it
