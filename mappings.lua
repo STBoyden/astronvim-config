@@ -36,6 +36,8 @@ return {
     ["<leader>Nj"] = { name = "Journaling" },
     ["<leader>Ne"] = { name = "Exporting" },
     ["<leader>Nw"] = { name = "Workspaces" },
+
+    ["<leader>H"] = { name = "Harpoon" },
   },
   t = {
     -- setting a mapping to false will disable it
