@@ -118,4 +118,23 @@ return {
       },
     },
   },
+  {
+    "FotiadisM/tabset.nvim",
+    opts = {
+      defaults = {
+        tabWidth = 4,
+        expandTab = true,
+      },
+      languages = {
+        bash = {
+          tabWidth = 8,
+          expandTab = false,
+        },
+        go = {
+          tabWidth = 8,
+          expandTab = false,
+        },
+      },
+    },
+  },
 }
