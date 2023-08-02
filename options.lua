@@ -8,6 +8,8 @@ return {
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
     guifont = { "FantasqueSansM Nerd Font", ":h12" },
+    list = true,
+    listchars = { tab = "--", multispace = "_", trail = "#" },
   },
   g = {
     -- general astronvim configuration
