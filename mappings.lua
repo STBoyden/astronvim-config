@@ -22,6 +22,7 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    ["<leader>e"] = { ":Neotree float<cr>", desc = "Toggle Explorer" },
 
     -- cursor navigation mappings, keep cursor in the centre of the buffer
     ["j"] = { "jzz" },
