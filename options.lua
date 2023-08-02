@@ -7,7 +7,7 @@ return {
     spell = false, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
-    guifont = { "IntelOneMono Nerd Font", ":h12" },
+    guifont = { "FantasqueSansM Nerd Font", ":h12" },
   },
   g = {
     -- general astronvim configuration
