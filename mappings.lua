@@ -24,6 +24,11 @@ return {
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
     ["<leader>e"] = { ":Neotree float<cr>", desc = "Toggle Explorer" },
 
+    ["<leader>rb"] = {
+      "<cmd>2TermExec cmd='bacon && exit' direction=vertical size=60 dir=git_dir go_back=0<cr>",
+      desc = "Start Bacon",
+    },
+
     -- cursor navigation mappings, keep cursor in the centre of the buffer
     ["j"] = { "jzz" },
     ["k"] = { "kzz" },
@@ -37,6 +42,7 @@ return {
     ["<leader>Nj"] = { name = "Journaling" },
     ["<leader>Ne"] = { name = "Exporting" },
     ["<leader>Nw"] = { name = "Workspaces" },
+    ["<leader>r"] = { name = "Rust" },
 
     ["<leader>H"] = { name = "Harpoon" },
   },
