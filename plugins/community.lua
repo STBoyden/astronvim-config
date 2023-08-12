@@ -18,7 +18,12 @@ return {
   { import = "astrocommunity.pack.svelte" },
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.pack.typescript-all-in-one" },
   { import = "astrocommunity.pack.yaml" },
+  { import = "astrocommunity.pack.full-dadbod" },
+  { import = "astrocommunity.pack.haskell" },
+  { import = "astrocommunity.pack.kotlin" },
+  { import = "astrocommunity.pack.docker" },
 
   -- completion engine(s)
   -- { import = "astrocommunity.completion.copilot-lua" },
