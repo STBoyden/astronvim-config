@@ -7,7 +7,6 @@ return {
       "go",
       "bash",
       "norg",
-      "norg_meta",
     },
   },
 }
