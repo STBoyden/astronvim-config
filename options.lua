@@ -24,7 +24,7 @@ return {
     -- plugins configuration, using global variables
     --
     -- adwaita-theme
-    adwaita_darker = true,
+    -- adwaita_darker = true,
     -- undo-tree
     undotree_WindowLayout = 3,
     undotree_SetFocusWhenToggle = 1,
