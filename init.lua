@@ -17,6 +17,7 @@ return {
     },
   },
   -- Set colorscheme to use
+  colorscheme = "default",
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
     virtual_text = true,
